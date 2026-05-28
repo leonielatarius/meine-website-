@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filmsammlung>
+    
+    <film id="f001">
+        <name>Inception</name>
+        <regisseur>Christopher Nolan</regisseur>
+        <hauptdarsteller>Leonardo DiCaprio</hauptdarsteller>
+        <herkunftsland>USA</herkunftsland>
+        <jahr>2010</jahr>
+        <kurzbeschreibung>
+            Ein Dieb dringt in die Träume anderer Menschen ein und soll eine Idee in das Unterbewusstsein einer Person einpflanzen.
+        </kurzbeschreibung>
+        <kategorien>
+            <kategorie>Action</kategorie>
+            <kategorie>Thriller</kategorie>
+        </kategorien>
+    </film>
+
+    <film id="f002">
+        <name>Titanic</name>
+        <regisseur>James Cameron</regisseur>
+        <hauptdarsteller>Leonardo DiCaprio</hauptdarsteller>
+        <herkunftsland>USA</herkunftsland>
+        <jahr>1997</jahr>
+        <kurzbeschreibung>
+            Zwei Menschen aus unterschiedlichen Gesellschaftsschichten verlieben sich während der Jungfernfahrt der Titanic.
+        </kurzbeschreibung>
+        <kategorien>
+            <kategorie>Lovestory</kategorie>
+        </kategorien>
+    </film>
+
+    <film id="f003">
+        <name>Knives Out</name>
+        <regisseur>Rian Johnson</regisseur>
+        <hauptdarsteller>Daniel Craig</hauptdarsteller>
+        <herkunftsland>USA</herkunftsland>
+        <jahr>2019</jahr>
+        <kurzbeschreibung>
+            Ein Detektiv untersucht den mysteriösen Tod eines bekannten Schriftstellers und deckt dabei Familiengeheimnisse auf.
+        </kurzbeschreibung>
+        <kategorien>
+            <kategorie>Thriller</kategorie>
+            <kategorie>Komoedie</kategorie>
+        </kategorien>
+    </film>
+
+    <film id="f004">
+        <name>Deadpool</name>
+        <regisseur>Tim Miller</regisseur>
+        <hauptdarsteller>Ryan Reynolds</hauptdarsteller>
+        <herkunftsland>USA</herkunftsland>
+        <jahr>2016</jahr>
+        <kurzbeschreibung>
+            Ein ehemaliger Söldner erhält besondere Kräfte und wird zu einem ungewöhnlichen Antihelden.
+        </kurzbeschreibung>
+        <kategorien>
+            <kategorie>Action</kategorie>
+            <kategorie>Komoedie</kategorie>
+        </kategorien>
+    </film>
+
+</filmsammlung>

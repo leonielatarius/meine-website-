@@ -1,120 +1,92 @@
  <!DOCTYPE html>
-<html lang="de>
+<html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <title>Portfolio Leonie Latarius</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Portfolio Leonie Latarius</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" width="220" height="260">
-
- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" width="220" height="260">
-
-  <g stroke="#222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-
-    <!-- Linkes Ohr -->
-    <ellipse 
-      cx="75" 
-      cy="58" 
-      rx="18" 
-      ry="45" 
-      fill="#ffffff" 
-      transform="rotate(-12 75 58)" 
-    />
-
-    <!-- Rechtes Ohr -->
-    <ellipse 
-      cx="118" 
-      cy="54" 
-      rx="18" 
-      ry="47" 
-      fill="#ffffff" 
-      transform="rotate(8 118 54)" 
-    />
-
-    <!-- Kopf -->
-    <circle 
-      cx="96" 
-      cy="118" 
-      r="55" 
-      fill="#ffffff" 
-    />
-
-    <!-- Kleines Kleid in Lavendel -->
-    <path 
-      d="
-        M48 175
-        Q60 160 82 157
-        L110 157
-        Q136 160 148 175
-        L145 210
-        Q122 218 98 218
-        Q73 218 52 210
-        Z
-      "
-      fill="#c8a2e0" 
-    />
-
-    <!-- Gesicht -->
-    <circle cx="76" cy="124" r="3.5" fill="#222" stroke="none" />
-    <circle cx="118" cy="124" r="3.5" fill="#222" stroke="none" />
-
-    <!-- Mund -->
-    <path d="M93 142 L101 148" fill="none" />
-    <path d="M101 142 L93 148" fill="none" />
-
-  </g>
-
-  <!-- Monogramm LL auf dem Kleid -->
-  <text 
-    x="98" 
-    y="195" 
-    text-anchor="middle" 
-    font-family="Arial, sans-serif" 
-    font-size="24" 
-    font-weight="bold" 
-    fill="#ffffff"
-  >
-    LL
-  </text>
-
-</svg>
-    </header>
-    <nav>
-        <a href="index.html">Startseite</a> |
-        <a href="projekte.html">Projekte</a> |
-        <a href="kontakt.html">Kontakt</a>|
-         <a href="CV.html">Mein CV</a>
-
-    </nav>
-    <main>
-        <section id="ueber-mich">
-
-    <!-- Mond und Sterne nebeneinander -->
-    <div class="icon-mitte">
-        <svg xmlns="http://www.w3.org/2000/svg" width="220" height="90" viewBox="0 0 220 90">
-            <defs>
-                <g id="stern">
-                    <polygon 
-                        points="0,-10 3,-3 10,-3 4,1 6,9 0,4 -6,9 -4,1 -10,-3 -3,-3"
-                        fill="#ffd54f"
-                        stroke="#6a1b9a"
-                        stroke-width="1.5"
-                    />
-                </g>
-            </defs>
-
-            <!-- Mond -->
-            <circle cx="45" cy="45" r="24" fill="#ffd54f"/>
-            <circle cx="55" cy="40" r="22" fill="white"/>
-
-            <!-- Sterne daneben -->
-            <use href="#stern" x="105" y="30"/>
-            <use href="#stern" x="135" y="45"/>
-            <use href="#stern" x="165" y="28"/>
+        <div class="logo-box">
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="260" viewBox="0 0 220 260">
+        
+            <!-- Hintergrund / Rahmen -->
+             <rect x="10" y="10" width="200" height="240" rx="20" ry="20" fill="none" stroke="none" />
+    
+            <!-- Dekorativer Kreis im Hintergrund -->
+            <<circle  cx="110" cy="125" r="100" fill="#eadcff" stroke="none" />
+        
+            <!-- Gruppe für die Figur -->
+            <g transform="translate(8 0)" stroke="#222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        
+                <!-- Linkes Ohr -->
+                <ellipse cx="75" cy="58" rx="18" ry="45" fill="#ffffff" transform="rotate(-12 75 58)" />
+        
+                <!-- Rechtes Ohr -->
+                <ellipse cx="118" cy="54" rx="18" ry="47" fill="#ffffff" transform="rotate(8 118 54)" />
+        
+                <!-- Kopf -->
+                <circle cx="96" cy="118" r="55" fill="#ffffff" />
+        
+                <!-- Kleid / Körper -->
+                <path d="
+                        M48 175
+                        Q60 160 82 157
+                        L110 157
+                        Q136 160 148 175
+                        L145 210
+                        Q122 218 98 218
+                        Q73 218 52 210
+                        Z
+                    " fill="#c8a2e0" />
+        
+                <!-- Gesicht -->
+                <circle cx="76" cy="124" r="3.5" fill="#222" stroke="none" />
+                <circle cx="118" cy="124" r="3.5" fill="#222" stroke="none" />
+        
+                <!-- Mund -->
+                <line x1="93" y1="144" x2="101" y2="148" stroke="#222" stroke-width="3" />
+        
+                <line x1="101" y1="144" x2="93" y2="148" stroke="#222" stroke-width="3" />
+        
+            </g>
+        
+            <!-- Dekorative Linie unten -->
+            <line x1="55" y1="232" x2="165" y2="232" stroke="#6a1b9a" stroke-width="2" stroke-linecap="round" />
+        
+            <!-- Monogramm LL -->
+            <text x="107" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+                fill="#ffffff">
+                LL
+            </text>
+        
+            <!-- Kleiner Logo-Text -->
+            <text x="110" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#6a1b9a">
+                
+                Leo
+                
+            </text>
+        
         </svg>
-    </div>
+        </div>
+
+        <h1>Portfolio Leonie Latarius</h1>
+        
+        <p class="info">
+            Medieninformatik, Gestaltung und digitale Medien
+        </p>
+    </header>
+
+    <nav>
+        <a href="index.html">Startseite</a> 
+        <a href="projekte.html">Projekte</a>
+        <a href="CV.html">Mein CV</a> 
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+    
+    <section>
+        <section id="ueber-mich">
 
     <h2>Über mich</h2>
 
@@ -142,9 +114,10 @@
                 <li>Programmieren</li>
                 <li>Game Design</li>
             </ul>
+
         </section>
             <h2>Inhalte</h2>
-            <table border="1">
+            <table>
                 <caption>
                     <b>Übersicht meiner Projekte</b>
                 </caption>
@@ -169,20 +142,25 @@
                     <td>In Bearbeitung</td>   
                 </tr>   
             </table>
-        <section>
+        </section>
+
         <section>
             <h2>Ausblick</h2>
             <p>
                 In Zukunft wird diese Seite Stück für Stück erweitert.                                                                                                                                                                                                                                                                                                       
             </p>
         </section>
+
+
         <section>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQybcHuBzexrF2Ho32zVcFNQxLirdkJ298IeA&s"
-                alt="Bild eines Hundes" width="300">
+            <img src="https://i.pinimg.com/736x/c9/af/7d/c9af7d75eb85028d66d39bdc9885072c.jpg"
+                alt="Miffy Bild" width="500">
         </section>
     </main>
+
     <footer>
         <p>© 2026 Leonie Jaqueline Latarius</p>
-    </footer>   
+    </footer>  
+
 </body>
 </html>
