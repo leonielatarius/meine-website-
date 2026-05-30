@@ -1,104 +1,57 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <title>Kontakt</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
+<body class="page-kontakt">
     <header>
         <h1>Kontakt</h1>
-        
-        <div class="icon-mitte">
-        
-            <svg xmlns="http://www.w3.org/2000/svg" width="320" height="160" viewBox="0 0 320 160">
-        
-                <!-- Hintergrund -->
-                <rect x="10" y="10" width="300" height="140" rx="15" ry="15" fill="#f8f4ff" stroke="#6a1b9a" stroke-width="2" />
-        
-                <!-- Wiederverwendbarer Stern -->
-                <defs>
-                    <g id="stern">
-                        <polygon points="0,-10 3,-3 10,-3 4,1 6,9 0,4 -6,9 -4,1 -10,-3 -3,-3" fill="#ffd54f" stroke="#6a1b9a"
-                            stroke-width="1.5" />
-                    </g>
-                </defs>
-        
-                <!-- Animierter Mond als Gruppe -->
-                <g transform="translate(40 35)">
-                    <circle cx="35" cy="35" r="25" fill="#ffd54f" stroke="#6a1b9a" stroke-width="2" />
-        
-                    <circle cx="45" cy="28" r="23" fill="#f8f4ff" />
-        
-                    <animateTransform attributeName="transform" type="translate" values="40 35; 50 35; 40 35" dur="4s"
-                        repeatCount="indefinite" />
-                </g>
-        
-                <!-- Sterne werden mit use wiederverwendet -->
-                <g>
-                    <use href="#stern" transform="translate(150 45) scale(1)" />
-                    <use href="#stern" transform="translate(200 65) scale(1.4)" />
-                    <use href="#stern" transform="translate(250 40) rotate(25) scale(1.1)" />
-                </g>
-        
-                <!-- Linie unten -->
-                <line x1="60" y1="120" x2="260" y2="120" stroke="#6a1b9a" stroke-width="3" stroke-linecap="round" />
-        
-                <!-- Beschriftung -->
-                <text x="160" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#222">
-        
-                </text>
-        
-            </svg>
-        
-        </div>
-        
+        <p class="info">Here you can write me a message</p>
     </header>
-
     <nav>
-        <a href="index.html">Startseite</a> 
-        <a href="projekte.html">Projekte</a> 
-        <a href="CV.html">Mein CV</a> 
+        <a href="index.html">Startseite</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="CV.html">Mein CV</a>
+        <a href="projekte.html">Projekte</a>
         <a href="kontakt.html">Kontakt</a>
     </nav>
-
     <main>
+        <div class="kontakt-grid">
 
-        <section>
-            <h2>Kontaktformular</h2>
-            <p>Hier kannst du mir eine Nachricht schreiben.</p>
+            <div class="kontakt-info">
+                <p class="kontakt-open">Open for creative projects —<br>let's create something next level.</p>
+                <div class="kontakt-details">
+                    <p><span>Notes</span><br>Project details, timelines and references are always helpful.</p>
+                    <p><span>Location</span><br>Wiesbaden / Remote</p>
+                    <p><span>Email</span><br>leonielatarius@gmail.com</p>
+                </div>
+            </div>
 
-            <form>
-            
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-            
-                <label for="email">E-Mail:</label>
-                <input type="email" id="email" name="email">
-            
-                <label for="msg">Nachricht:</label>
-                <textarea id="msg" name="message"></textarea>
-            
-                <label for="course">Studiengang:</label>
-                <select id="course" name="course">
-                    <option>Medieninformatik</option>
-                    <option>Informatik</option>
-                    <option>Design</option>
-                    <option>Andere</option>
-                </select>
-            
-                <button type="submit">Absenden</button>
-            
-            </form>
-        </section>
+            <div class="kontakt-form">
+                <form>
+                    <input type="text" id="name" name="name" placeholder="name">
+                    <input type="email" id="email" name="email" placeholder="e-mail">
+                    <textarea id="msg" name="message" placeholder="message"></textarea>
+                    <select id="course" name="course">
+                        <option value="" disabled selected>course</option>
+                        <option>Medieninformatik</option>
+                        <option>Informatik</option>
+                        <option>Design</option>
+                        <option>Andere</option>
+                    </select>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
 
+        </div>
     </main>
-
     <footer>
         <p>© 2026 Leonie Jaqueline Latarius</p>
     </footer>
-
 </body>
+
 </html>

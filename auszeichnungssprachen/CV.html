@@ -6,69 +6,161 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="page-cv">
     <header>
         <h1>Mein CV</h1>
         <p class="info">
-            Hier ist ein Überblick über mein Schul- und Studienverlauf, meine Kompetenzen und Sprachkenntnisse.
+            Hier ist ein Überblick über meine Bildung
         </p>
     </header>
 
     <nav>
-        <a href="index.html">Startseite</a> 
-        <a href="projekte.html">Projekte</a> 
-        <a href="CV.html">Mein CV</a> 
+        <a href="index.html">Startseite</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="CV.html">Mein CV</a>
+        <a href="projekte.html">Projekte</a>
         <a href="kontakt.html">Kontakt</a>
+    
     </nav>
 
     <main> 
 
 
         <section>
-            <h2>Schullaufbahn</h2>
-
-            <ul>
-                <li>2010–2014: Johannisschule Osnabrück</li>
-                <li>2014–2024: Gymnasium Carolinum Osnabrück</li>
-            </ul>
-        </section>  
-
-        <section>
-            <h2>Studium</h2>
-
-            <ul>
-                <li>2025–: Hochschule RheinMain - Medieninformatik</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Kompetenzen</h3>
-
-            <ul>
-                <li>Erste-Hilfe-Kurs</li>
-                <li>Führerschein Klasse B</li>
-                <li>Grundkenntnisse in HTML</li>
-                <li>Grundkenntnisse in Java</li>
-            </ul>
-           
-        </section>
-
-        <section>
-            <h3>Sprachen</h3>
-            <ul>
-                <li>Englisch</li>
-                <li>Spanisch</li>
-                <li>Polnisch</li>
-                <li>Deutsch</li>
-                <li>Japanisch</li>
-                <li>Koreanisch</li>
-            </ul>
-        </section>
+            <h2>Education</h2>
         
+            <div class="education-item">
+                <span class="year">2010 – 2014</span>
+                <div class="details">
+                    <p class="school">Johannisschule Osnabrück</p>
+                </div>
+            </div>
+        
+            <div class="education-item">
+                <span class="year">2014 – 2024</span>
+                <div class="details">
+                    <p class="school">Gymnasium Carolinum Osnabrück</p>
+                </div>
+            </div>
+            <div class="education-item"> <!-- was <dv> -->
+                <span class="year">2025 – </span>
+                <div class="details">
+                    <p class="school">Hochschule RheinMain - Media and Computer Science</p>
+                </div>
+            </div>
+        
+        </section>
+
+        <section>
+            <h3>Work Experience</h3>
+            <div class="work-item">
+                <span class="year">2020 – 2021</span>
+                <div class="details">
+                    <p class="job-title">Barista</p>
+                    <p class="company">Cafe Milo</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <span class="year">2022 – 2023</span>
+                <div class="details">
+                    <p class="job-title">Intern</p>
+                    <p class="company">Tech Startup</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <span class="year">2024 – </span>
+                <div class="details">
+                    <p class="job-title">Personal assistant</p>
+                    <p class="company">Professor Tiga</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>Skills</h3>
+            <div class="technical-skills">
+                <div class="skill-item">
+                    <p class="skill-name">HTML</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 80%;"></div>  
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-name    ">CSS</p>
+                    <div class="skill-level">                
+                        <div class="skill-bar" style="width: 70%;"></div>                                           
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-name">Java</p>
+                    <div class="skill-level">             
+                        <div class="skill-bar" style="width: 60%;"></div>           
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-name">Figma</p>
+                    <div class="skill-level">          
+                        <div class="skill-bar" style="width: 90%;"></div>       
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section>
+            <h3>language skills</h3>
+            <div class="language-skills">
+                <div class="skill-item">
+                    <p class="skill-name">English</p>
+                    <div class="skill-level">         
+                        <div class="skill-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-name">German</p>
+                    <div class="skill-level">         
+                        <div class="skill-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-name">Polish</p>
+                    <div class="skill-level">      
+                        <div class="skill-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-name">Spanish</p>
+                    <div class="skill-level">      
+                        <div class="skill-bar" style="width: 80%;"></div>           
+                    </div>
+                </div>
+                <div class="skill-item"> <!-- was: <div class="skill-item -->
+                    <p class="skill-name">Japanese</p>
+                    <div class="skill-level">      
+                        <div class="skill-bar" style="width: 60%;"></div>       
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-name">Korean</p>
+                    <div class="skill-level">      
+                        <div class="skill-bar" style="width: 50%;"></div>       
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section>
+            <h3>Some other skills</h3>
+            <div class="other-skills">
+                <div class="skill-item">
+                    <p class="skill-name">Drivers license</p>
+                </div>
+            <div class="skill-item">
+                <p class="skill-name">First Aid Course</p>
+            </div>
+            </div>
+        </section>  
+     
     </main>
 
     <footer>
-        <p>© 2026 Leonie Jaqueline Latarius</p>
+        
     </footer>
     
 </body>

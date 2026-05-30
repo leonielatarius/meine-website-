@@ -1,0 +1,60 @@
+<svg class="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="260" viewBox="0 0 220 260">
+        
+            <!-- Hintergrund / Rahmen -->
+             <rect x="10" y="10" width="200" height="240" rx="20" ry="20" fill="none" stroke="none" />
+    
+            <!-- Dekorativer Kreis im Hintergrund -->
+            <circle  cx="110" cy="125" r="100" fill="#eadcff" stroke="none" />
+        
+            <!-- Gruppe für die Figur -->
+            <g transform="translate(8 0)" stroke="#222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        
+                <!-- Linkes Ohr -->
+                <ellipse cx="75" cy="58" rx="18" ry="45" fill="#ffffff" transform="rotate(-12 75 58)" />
+        
+                <!-- Rechtes Ohr -->
+                <ellipse cx="118" cy="54" rx="18" ry="47" fill="#ffffff" transform="rotate(8 118 54)" />
+        
+                <!-- Kopf -->
+                <circle cx="96" cy="118" r="55" fill="#ffffff" />
+        
+                <!-- Kleid / Körper -->
+                <path d="
+                        M48 175
+                        Q60 160 82 157
+                        L110 157
+                        Q136 160 148 175
+                        L145 210
+                        Q122 218 98 218
+                        Q73 218 52 210
+                        Z
+                    " fill="#c8a2e0" />
+        
+                <!-- Gesicht -->
+                <circle cx="76" cy="124" r="3.5" fill="#222" stroke="none" />
+                <circle cx="118" cy="124" r="3.5" fill="#222" stroke="none" />
+        
+                <!-- Mund -->
+                <line x1="93" y1="144" x2="101" y2="148" stroke="#222" stroke-width="3" />
+        
+                <line x1="101" y1="144" x2="93" y2="148" stroke="#222" stroke-width="3" />
+        
+            </g>
+        
+            <!-- Dekorative Linie unten -->
+            <line x1="55" y1="232" x2="165" y2="232" stroke="#6a1b9a" stroke-width="2" stroke-linecap="round" />
+        
+            <!-- Monogramm LL -->
+            <text x="107" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+                fill="#ffffff">
+                LL
+            </text>
+        
+            <!-- Kleiner Logo-Text -->
+            <text x="110" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#6a1b9a">
+                
+                Leo
+                
+            </text>
+        
+        </svg>
